@@ -1,0 +1,30 @@
+Day 1: Introduction to NodeJS
+Today was the first day of my software development course focused on NodeJS, MongoDB, ExpressJS, Angular, and the MEAN-Stack. 
+We started with an introduction to NodeJS, its architecture, and its features. We learned how to install NodeJS, create a simple web server, and use 
+Node Package Manager (npm) to install and manage packages. We also discussed the differences between NodeJS and other server-side technologies like PHP 
+and Ruby on Rails. Overall, it was an exciting and informative day.
+
+Day 2: MongoDB
+Today we learned about MongoDB, a popular NoSQL database that stores data in a document-oriented format. We discussed the advantages and disadvantages of 
+using MongoDB and how to install it. We also learned how to perform basic CRUD (create, read, update, delete) operations using the MongoDB shell and how to
+connect to a MongoDB database from NodeJS. It was fascinating to see how easy it is to work with MongoDB, and I can't wait to start building applications 
+with it.
+
+Day 3: ExpressJS
+Today we learned about ExpressJS, a web application framework for NodeJS. We discussed the basics of routing, middleware, and templating engines. We also 
+learned how to create a simple web application using ExpressJS and how to handle different HTTP requests like GET, POST, and PUT. We also discussed the role 
+of middleware in an ExpressJS application and how it can be used to add functionality to our application. Overall, it was a great day, and I feel confident
+in my ability to create simple web applications using ExpressJS.
+
+Day 4: Angular
+Today we learned about Angular, a popular front-end framework for building dynamic web applications. We discussed the basics of Angular, including 
+components, modules, services, and templates. We also learned how to create a simple Angular application and how to use Angular CLI to generate components,
+services, and modules. We also discussed the role of observables in Angular and how they can be used to handle asynchronous data. Overall, it was an 
+exciting day, and I am looking forward to building more complex applications using Angular.
+
+Day 5: MEAN-Stack
+Today we learned about the MEAN-Stack, a full-stack JavaScript solution for building web applications. We discussed how to integrate NodeJS, MongoDB, 
+ExpressJS, and Angular to create a powerful and scalable application. We also learned how to use Mongoose, an Object Data Modeling (ODM) library for 
+MongoDB, to create schemas and models for our data. We also discussed the importance of modularizing our application and how to use Angular modules and 
+services to create reusable components. Overall, it was a great week, and I feel confident in my ability to build complex web applications using the 
+MEAN-Stack.
