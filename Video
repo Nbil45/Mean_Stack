@@ -1,0 +1,57 @@
+Hello,
+
+I hope this email finds you well. I am writing to inform you about the challenges I encountered while configuring the project for the Mean-Stack course. 
+Despite my dedication, I have been unable to successfully set up the project, and I wanted to provide you with a detailed explanation of the issue I faced.
+
+The problem revolves around establishing a connection with the database. There are two sections of code that attempt to establish this connection, and I 
+encountered difficulties with both approaches. Let me explain further:
+
+Connect To Database (NEW):
+"
+// Connect To Database (NEW) But not working!!!!!!!!!! (because of secret in db.js!!!!!)
+//const db = require('./config/database');
+// Map global promise - get rid of warning
+//mongoose.Promise = global.Promise;
+// Connect to mongoose
+//mongoose.connect(db.mongoURI, {
+    //useMongoClient: true
+//})
+//.then(() => console.log('MongoDB Connected...'))
+//.catch(err => console.log(err));
+"
+
+In this code snippet, I intended to connect to the database using the configuration stored in the db.js file. However, there seems to be an issue with the 
+secret in the db.js file, which prevents the connection from being established. Despite my attempts to resolve this issue through various approaches, I have 
+not been able to make it work.
+
+Connect To Database (OLD CODE):
+"
+mongoose.connect(config.database, { useMongoClient: true});
+// On Connection
+mongoose.connection.on('connected', () => {
+  console.log('Connected to Database '+config.database);
+});
+// On Error
+mongoose.connection.on('error', (err) => {
+  console.log('Database error '+err);
+});
+"
+As an alternative, I tried using the code provided above, which aims to connect to the database using the configuration stored in the config/database.js file. 
+However, despite double-checking the configuration details and ensuring their accuracy, I still encountered an error preventing the successful connection to 
+the database.
+
+I have taken several steps to troubleshoot the problem, including conducting extensive research online, seeking assistance from relevant forums, and attempting
+various solutions. However, despite my persistent efforts, I have been unable to resolve the issue and configure the project to run smoothly.
+
+
+I wanted to bring this matter to your attention to seek your advice and potential solutions to overcome this challenge. I genuinely appreciate the 
+opportunity to learn and grow in this course and remain committed to completing the project. If running the project as intended proves to be unfeasible, I
+am open to exploring alternative approaches that would allow me to demonstrate my understanding of the covered concepts.
+
+I would like to get the credits for this course as I have tried my best to solve the problems that I have been facing during my work on this course.Thank you for your understanding and consideration.
+
+Sincerely,
+Nabil Sleem.
+
+
+
